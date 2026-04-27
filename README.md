@@ -22,7 +22,7 @@ No single source can answer that reliably. Downloads can be high on an abandoned
 ## Graph
 
 <p align="center">
-  <img src="assets/graph_preview.png" alt="Lobster relationship graph" width="100%"/>
+  <img src="https://github.com/user-attachments/assets/3884ccab-f43f-4876-8e69-c0323ac09016" alt="Lobster relationship graph" width="100%"/>
 </p>
 
 Each run builds a live relationship graph across libraries and their maintainers, questions, and mentions. **Gold nodes** are developers shared across multiple libraries — the real interdependency signal.
