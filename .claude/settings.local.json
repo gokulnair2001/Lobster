@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python3 -m pip install -r /Users/gokul.nair/Desktop/Lobster/requirements.txt -q)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(python3 -c \"import shutil; shutil.copy\\('/Users/gokul.nair/Desktop/Screenshot 2026-04-27 at 12.53.43 PM.png', '/Users/gokul.nair/Desktop/Lobster/assets/graph_preview.png'\\)\")"
+    ]
+  }
+}

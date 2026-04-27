@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100">
+  <rect width="420" height="100" rx="12" fill="#1a1a2e"/>
+
+  <!-- Graph nodes -->
+  <!-- Center node (library - blue) -->
+  <circle cx="50" cy="50" r="14" fill="#4C9BE8"/>
+
+  <!-- Developer nodes (green) -->
+  <circle cx="18" cy="22" r="7" fill="#58C48A"/>
+  <circle cx="82" cy="22" r="7" fill="#58C48A"/>
+  <circle cx="18" cy="78" r="7" fill="#58C48A"/>
+  <circle cx="82" cy="78" r="7" fill="#58C48A"/>
+
+  <!-- Shared dev (gold) -->
+  <circle cx="50" cy="14" r="8" fill="#FFD700"/>
+
+  <!-- SO node (orange square) -->
+  <rect x="85" y="45" width="10" height="10" rx="2" fill="#F5A623"/>
+
+  <!-- HN node (triangle) -->
+  <polygon points="50,86 43,98 57,98" fill="#E8734C"/>
+
+  <!-- Edges -->
+  <line x1="50" y1="50" x2="18" y2="22" stroke="#555577" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="82" y2="22" stroke="#555577" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="18" y2="78" stroke="#555577" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="82" y2="78" stroke="#555577" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="50" y2="14" stroke="#FFD700" stroke-width="1.8" stroke-dasharray="3,2"/>
+  <line x1="50" y1="50" x2="90" y2="50" stroke="#555577" stroke-width="1.5"/>
+  <line x1="50" y1="50" x2="50" y2="86" stroke="#555577" stroke-width="1.5"/>
+
+  <!-- Wordmark -->
+  <text x="116" y="58" font-family="'SF Mono', 'Fira Code', monospace" font-size="36" font-weight="700" fill="#4C9BE8" letter-spacing="-1">Lobster</text>
+
+  <!-- Tagline -->
+  <text x="118" y="76" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#6688aa" letter-spacing="1">heterogeneous data fusion</text>
+</svg>
